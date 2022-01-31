@@ -11,6 +11,15 @@
       crossorigin="anonymous"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Player Music</title>
   </head>
   <body>
@@ -18,14 +27,14 @@
       src="imagens/hector-bermudez-iIWDt0fXa84-unsplash.jpg"
       alt="Essa imagem não foi carregada com sucesso."
     />
-    <div class="descrição">
+    <div class="descricao">
       <h2>Nome da Música</h2>
       <i>Matheus Macedo</i>
     </div>
 
-    <div class="Duração">
+    <div class="duracao">
       <div class="barra">
-        <progress value="0.1" max="1"></progress>
+        <progress value="0" max="1"></progress>
         <div class="ponto"></div>
       </div>
       <div class="tempo">
@@ -35,10 +44,10 @@
     </div>
 
     <div class="player">
-      <i class="fas fa-backward"></i>
-      <i class="fas fa-play-circle"></i>
-      <i class="fas fa-pause-circle"></i>
-      <i class="fas fa-forward"></i>
+      <i class="fas fa-backward setas"></i>
+      <i class="fas fa-play-circle botao-play"></i>
+      <i class="fas fa-pause-circle botao-pause"></i>
+      <i class="fas fa-forward setas"></i>
     </div>
     <audio src="Músicas/I Just Wanna Be Great - NEFFEX.mp3"></audio>
   </body>
